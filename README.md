@@ -10,7 +10,7 @@ _Code base for the book "Deep Reinforcement Learning: Theory and Practice"_
 **This repo demonstrates using various Deep RL Models to solve the classic control problem "CartPole".**
 - In progress! More implementations will be added, including the Model-based methods. 
 - For the sake of better demonstrating the workflow, the codes here are not the most efficient. (o_o) Can you improve? 
-- Regarding the theory of RL, please consult on my book project [PDF](https://www.easonspace.com/book). <br>
+- Regarding the theory of RL, please consult with my book project [PDF](https://www.easonspace.com/book). <br>
 
 ### Model-free methods
 
@@ -35,4 +35,4 @@ Any code base that had helped the making of this repo will be credited in this s
 
 ### Project Support 
 
-Consider supporting further releases on [Patron](https://www.patreon.com/easonspace) (>_<)
+Consider supporting further releases on [Patreon](https://www.patreon.com/easonspace) (>_<)
