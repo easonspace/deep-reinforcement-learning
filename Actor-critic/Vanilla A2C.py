@@ -62,13 +62,10 @@ class Session():
 
     def train(self, model, show_info=True):
 
-        ''' use this to reproduce result
-
+        # use 42 to reproduce result
         env.seed(42)
         np.random.seed(42)
         tf.random.set_seed(42)
-
-        '''
 
         rewards=[]
         best_score=0
