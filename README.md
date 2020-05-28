@@ -20,6 +20,7 @@ _Code base for the book "Deep Reinforcement Learning: Theory and Practice"_
 - REINFORCE with state-value baseline
 - Vanilla A2C
 - A3C
+- PI-ES
 
 ### Acknowledgement
 Any code base that had helped the making of this repo will be credited in this section:
