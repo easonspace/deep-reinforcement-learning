@@ -113,6 +113,7 @@ class Session():
                 if done:
                     break
             episode_rewards.append(step+1)
+            
         return np.mean(episode_rewards)
 
     def _generate_policies(self, base_policy):
@@ -132,7 +133,6 @@ if __name__ == '__main__':
     np.random.seed(42)
     tf.random.set_seed(42)
 
-    '''
 
     model_args={'state_size':4,
         'action_size':2,
