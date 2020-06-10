@@ -55,7 +55,7 @@ class Workers(threading.Thread):
         self.n_episodes = n_episodes
 
         # initialize local network with default paras,
-        # and then copy paras of the globl network
+        # and then copy the initial paras of the globl network to local network
         self.local_network=A3C()
         self.local_network.twin_function=tf.keras.models.clone_model(global_network.twin_function)
 
@@ -89,10 +89,9 @@ class Workers(threading.Thread):
 
             # add in reward
             self.episodic_rewards[episode]=cumulative_reward
+            
             # compute loss from episodic memory
-
             with tf.GradientTape() as tape:
-
                 total_loss= self._loss_function()
 
             grads = tape.gradient(total_loss, self.local_network.trainable_weights)
