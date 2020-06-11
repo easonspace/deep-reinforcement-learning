@@ -63,7 +63,7 @@ class Session():
         tf.random.set_seed(42)
 
 
-        mean_reward_log, base_reward_log=[]
+        mean_reward_log, base_reward_log=[],[]
         last_best=0
 
         for iteration in range(self.n_iterations):
