@@ -38,6 +38,3 @@ Any code base that had helped the making of this repo will be credited in this s
 - gym 0.15+
 - matplotlib 3.0+
 
-### Project Support 
-
-Consider supporting further releases on [Patreon](https://www.patreon.com/easonspace) (>_<)
